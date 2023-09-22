@@ -6,57 +6,188 @@
 	<title>MP1</title>
 	<link rel="stylesheet" href="css/animate.css">
 	<link rel="stylesheet" href="css/templatemo-style.css">
-	<link rel="stylesheet" href="./css/css/bootstrap.css">
-	<script src="js/jquery-1.11.0.min.js"></script>
-	<script src="js/jquery-migrate-1.2.1.min.js"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </head>
-<body style="background-image: url(./img/bgall.png);">
-	<div class="fluid-container">
-		<header class="site-header">
-			<div class="navbar-default navbar-fixed-top">
-				<div class="fluid-container">
-				<div class="navbar-header">
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse">
-						<i class="fa fa-bars"></i>
-					</button>
-					<a class="navbar-brand" href="#">HiFi Prints - Your Bespoke Style</a>
-				</div>
-				<div class="navbar-collapse collapse">
-					<ul class="nav navbar-nav navbar-right">
-						<li><a class="link-service" href="#services">Services</a></li>
-						<li><a class="link-gallery" href="#gallery">Gallery</a></li>
-						<li><a class="link-contact" href="#contact">AboutUs</a></li>
-						<li><a class="link-checkout" href="#checkout">CheckOut</a></li>
-					</ul>
-				</div>
-				</div>
+<body">
+	<header>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+			<div class="container-fluid bg-dark">
+				<img class="d-block mx-auto mb-4" src="https://img.freepik.com/free-vector/colorful-letter-gradient-logo-design_474888-2309.jpg?w=740&t=st=1695414177~exp=1695414777~hmac=f3e51738b29aacead1befa0b60b154f540e699a20e1322543a789fef22c08f6f" alt="" width="72" height="57" style="margin-top: 18px;">
+			  <a class="navbar-brand text-light" style="margin-left: 10px;" href="#">HiFi Prints</a>
+			  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			  </button>
+			  <div class="collapse navbar-collapse d-flex flex-lg-row-reverse" id="navbarSupportedContent">
+				<a href="./pages/Checkout.html"><button type="submit" class="btn btn-outline-light">Check Out</button></a>
+				<a href="./pages/Gallery.html"><button type="submit" class="btn btn-outline-light">Gallery</button></a>
+				<a href="./pages/ContactUs.html"><button type="submit" class="btn btn-outline-light">Contact Us</button></a>
+				<a href="./pages/AboutUs.html"><button type="submit" class="btn btn-outline-light">About Us</button></a>
+				<a href="./index.html"><button type="button" class="btn btn-outline-light">Home</button></a>
 			</div>
-		</header>
-	</div> 
-	<div class="main-content">
-	<div class="fluid-container">
-		<div class="section-welcome" style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-position: top;">
-			<div class="row">
-            	<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
-					<img src="./img/big.image.jpeg" class="img-responsive animated fadeInLeft" alt="printlogo" width="600px" height="700px">
-				</div>
-				<div class="col-md-8 text-center welcome-section">
-                	<br>
-					<h1 class="animated fadeInDown"><i>CUSTOMIZE and create your OWN STYLE</i></h1>
-					<br>
-                    <p class="animated fadeInRight" style="font-size: x-large;">Fashion mood? We got you! Check out our best offers that soots your style!</p>
-                    <br>
-					<a href="#" class="button-grey animated fadeInUp">Learn More</a>
-				</div>
+		  </nav>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+      <symbol id="check2" viewBox="0 0 16 16">
+        <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+      </symbol>
+      <symbol id="circle-half" viewBox="0 0 16 16">
+        <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+      </symbol>
+      <symbol id="moon-stars-fill" viewBox="0 0 16 16">
+        <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+        <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+      </symbol>
+      <symbol id="sun-fill" viewBox="0 0 16 16">
+        <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+      </symbol>
+    </svg>
+
+    <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+      <button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+              id="bd-theme"
+              type="button"
+              aria-expanded="false"
+              data-bs-toggle="dropdown"
+              aria-label="Toggle theme (auto)">
+        <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+        <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+      </button>
+      <ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+            Light
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+            Dark
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+        <li>
+          <button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+            <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+            Auto
+            <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+<main>
+   <div class="p-5 text-center bg-image" style="
+   background-image: url(https://img.freepik.com/premium-photo/collection-t-shirts-accessories-display_922357-15012.jpg?w=2000);
+   height: 400px;
+ ">
+ <div class="mask">
+   <div class="d-flex justify-content-center align-items-center h-100">
+	 <div class="text-white">
+	   <h1 class="mb-3">CUSTOMIZE and create your OWN STYLE</h1>
+	   <h4 class="mb-3">Fashion mood? We got you! Check out our best offers that soots your style!</h4>
+	 </div>
+   </div>
+ </div>
+</div>
+    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
+		<symbol id="check2" viewBox="0 0 16 16">
+		  <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+		</symbol>
+		<symbol id="circle-half" viewBox="0 0 16 16">
+		  <path d="M8 15A7 7 0 1 0 8 1v14zm0 1A8 8 0 1 1 8 0a8 8 0 0 1 0 16z"/>
+		</symbol>
+		<symbol id="moon-stars-fill" viewBox="0 0 16 16">
+		  <path d="M6 .278a.768.768 0 0 1 .08.858 7.208 7.208 0 0 0-.878 3.46c0 4.021 3.278 7.277 7.318 7.277.527 0 1.04-.055 1.533-.16a.787.787 0 0 1 .81.316.733.733 0 0 1-.031.893A8.349 8.349 0 0 1 8.344 16C3.734 16 0 12.286 0 7.71 0 4.266 2.114 1.312 5.124.06A.752.752 0 0 1 6 .278z"/>
+		  <path d="M10.794 3.148a.217.217 0 0 1 .412 0l.387 1.162c.173.518.579.924 1.097 1.097l1.162.387a.217.217 0 0 1 0 .412l-1.162.387a1.734 1.734 0 0 0-1.097 1.097l-.387 1.162a.217.217 0 0 1-.412 0l-.387-1.162A1.734 1.734 0 0 0 9.31 6.593l-1.162-.387a.217.217 0 0 1 0-.412l1.162-.387a1.734 1.734 0 0 0 1.097-1.097l.387-1.162zM13.863.099a.145.145 0 0 1 .274 0l.258.774c.115.346.386.617.732.732l.774.258a.145.145 0 0 1 0 .274l-.774.258a1.156 1.156 0 0 0-.732.732l-.258.774a.145.145 0 0 1-.274 0l-.258-.774a1.156 1.156 0 0 0-.732-.732l-.774-.258a.145.145 0 0 1 0-.274l.774-.258c.346-.115.617-.386.732-.732L13.863.1z"/>
+		</symbol>
+		<symbol id="sun-fill" viewBox="0 0 16 16">
+		  <path d="M8 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8zM8 0a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 0zm0 13a.5.5 0 0 1 .5.5v2a.5.5 0 0 1-1 0v-2A.5.5 0 0 1 8 13zm8-5a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2a.5.5 0 0 1 .5.5zM3 8a.5.5 0 0 1-.5.5h-2a.5.5 0 0 1 0-1h2A.5.5 0 0 1 3 8zm10.657-5.657a.5.5 0 0 1 0 .707l-1.414 1.415a.5.5 0 1 1-.707-.708l1.414-1.414a.5.5 0 0 1 .707 0zm-9.193 9.193a.5.5 0 0 1 0 .707L3.05 13.657a.5.5 0 0 1-.707-.707l1.414-1.414a.5.5 0 0 1 .707 0zm9.193 2.121a.5.5 0 0 1-.707 0l-1.414-1.414a.5.5 0 0 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .707zM4.464 4.465a.5.5 0 0 1-.707 0L2.343 3.05a.5.5 0 1 1 .707-.707l1.414 1.414a.5.5 0 0 1 0 .708z"/>
+		</symbol>
+	  </svg>
+  
+	  <div class="dropdown position-fixed bottom-0 end-0 mb-3 me-3 bd-mode-toggle">
+		<button class="btn btn-bd-primary py-2 dropdown-toggle d-flex align-items-center"
+				id="bd-theme"
+				type="button"
+				aria-expanded="false"
+				data-bs-toggle="dropdown"
+				aria-label="Toggle theme (auto)">
+		  <svg class="bi my-1 theme-icon-active" width="1em" height="1em"><use href="#circle-half"></use></svg>
+		  <span class="visually-hidden" id="bd-theme-text">Toggle theme</span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-end shadow" aria-labelledby="bd-theme-text">
+		  <li>
+			<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="light" aria-pressed="false">
+			  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#sun-fill"></use></svg>
+			  Light
+			  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+			</button>
+		  </li>
+		  <li>
+			<button type="button" class="dropdown-item d-flex align-items-center" data-bs-theme-value="dark" aria-pressed="false">
+			  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#moon-stars-fill"></use></svg>
+			  Dark
+			  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+			</button>
+		  </li>
+		  <li>
+			<button type="button" class="dropdown-item d-flex align-items-center active" data-bs-theme-value="auto" aria-pressed="true">
+			  <svg class="bi me-2 opacity-50 theme-icon" width="1em" height="1em"><use href="#circle-half"></use></svg>
+			  Auto
+			  <svg class="bi ms-auto d-none" width="1em" height="1em"><use href="#check2"></use></svg>
+			</button>
+		  </li>
+		</ul>
+	  </div>
+	</header>
+		<div>
+			<section>
+				<div class="container marketing">
+					<div class="row">
+					  <div class="col-lg-4">
+						<figure style="margin-top: 50px;">
+							<blockquote class="blockquote">
+							  <p style="text-align: justify;">“Design is one of the few disciplines that is a science as well as an art. Effective, meaningful design requires intellectual, rational rigor along with the ability to elicit emotions and beliefs. Thus, designers must balance both the logic and lyricism of humanity every time they design something, a task that requires a singularly mysterious skill.</p>
+							</blockquote>
+							<figcaption class="blockquote-footer">
+								- Debbie Millman famous in <cite title="How to Think Like a Great Graphic Designer">How to Think Like a Great Graphic Designer</cite>
+							</figcaption>
+						  </figure>
+					  </div>
+					  <div class="col-lg-4">
+						<figure style="margin-top: 50px;">
+							<blockquote class="blockquote">
+							  <p style="text-align: justify;">“Good design is actually a lot harder to notice than poor design, in part because good designs fit our needs so well that the design is invisible,”</p>
+							</blockquote>
+							<figcaption class="blockquote-footer">
+								- Don Norman famous in <cite title="The Design of Everyday Things">The Design of Everyday Things</cite>
+							</figcaption>
+						  </figure>
+					  </div>
+					  <div class="col-lg-4">
+						<figure style="margin-top: 50px;">
+							<blockquote class="blockquote">
+							  <p style="text-align: justify;">“Confidence means believing in yourself. If you don’t believe that what you have to offer is of any value, well, no ones going to pay for it.”</p>
+							</blockquote>
+							<figcaption class="blockquote-footer">
+								-— David Airey famous in <cite title="Work for Money, Design for Love">Work for Money, Design for Love</cite>
+							</figcaption>
+						  </figure>
+					  </div>
+					</div>
+				
+			</section>
 			</div>
+			</section>
 		</div>
-	</div>
-		<div class="fluid-container" style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-size: cover;">
-			<div class="row">
+		<div class="fluid-container"  style="margin-top: 50px;">
+			<h1 style="text-align: center;">Our Products</h1>
+			<div class="row" style="margin-top: 50px;">
 				<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
 					<div class="service animated fadeInUp">						
 						<h4 class="feature-title mt-24">Rounded Neck T-Shirt</h4>
-						<img src="./img/rounded tshirt.webp" alt="rounded" width="250px" height="300px">
+						<img src="https://as2.ftcdn.net/v2/jpg/06/10/39/31/1000_F_610393137_Bp4fBm2klKIbAGNRDrjFW7u68HmUcOKi.webp" alt="rounded" width="300px" height="300px">
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
@@ -64,15 +195,15 @@
 							<span class="s-left"></span>
 							<span class="s-right"></span>	
 							<h4 class="feature-title mt-24">Jacket</h4>
-							<img src="./img/zipper hoddie.webp"alt="hoodie" width="250px" height="300px">
+							<img src="https://as2.ftcdn.net/v2/jpg/02/61/27/69/1000_F_261276934_LZC9geUYXDnFiOvxmZg0BBPa9teDA6tM.jpg"alt="hoodie" width="300px" height="300px">
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
 						<div class="service animated fadeInUp">
 							<span class="s-left"></span>
 							<span class="s-right"></span>	
-							<h4 class="feature-title mt-24">Collar T-Shirt</h4>
-							<img src="./img/collar.jpeg" alt="collar" width="250px" height="300px">
+							<h4 class="feature-title mt-24">Collar Shirt</h4>
+							<img src="https://t3.ftcdn.net/jpg/04/99/37/60/240_F_499376050_c0zKrsz1p0iDsTs81A2lxDLdprNhu490.jpg" alt="collar" width="400px" height="300px">
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
@@ -86,7 +217,7 @@
 							<span class="s-left"></span>
 							<span class="s-right"></span>	
 							<h4 class="feature-title mt-24">Caps</h4>
-							<img src="./img/cap.jpeg" alt="cap" width="250px" height="300px">
+							<img src="https://as1.ftcdn.net/v2/jpg/01/74/11/68/1000_F_174116892_yADuCbYMi1HddrBsmxhGn8flavE5cGKQ.jpg" alt="cap" width="300px" height="300px">
 						</div>
 					</div>
 					<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
@@ -95,130 +226,17 @@
 							<span class="s-left"></span>
 							<span class="s-right"></span>	
 							<h4 class="feature-title mt-24">Cups and Mags</h4>
-							<img src="./img/mugs.jpeg" alt="mugs" width="250px" height="300px">
+							<img src="https://t3.ftcdn.net/jpg/00/48/80/62/240_F_48806269_R7lD4x07iVwu37YT22WaPVYwM52eaYkr.jpg" alt="mugs" width="300px" height="300px">
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
-	<section class="h-100 gradient-custom">
-		<div class="container py-5" style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-size: cover;">
-		  <div class="row d-flex justify-content-center my-4">
-				  <div class="fluid-container" id="checkout">
-					<div class="row">
-						<div class="col-md-12 text-left">
-							<div class="section-header contact-header">
-								<h3>Check Out</h3>					
-							</div>
-						</div>
-					</div>
-				</div>
-					<div class="col-lg-5 col-md-6 mb-4 mb-lg-0">
-						<div class="dropdown">
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your Item
-							<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-								<li><a href="#">Rounded T-shirt</a></li>
-								<li><a href="#">Jacket</a></li>
-								<Li><a href="#">Collar T-shirt</a></Li>
-								<li><a href="#">Bag</a></li>
-								<li><a href="#">Umbrella</a></li>
-								<li><a href="#">Cap</a></li>
-								<li><a href="#">Cup</a></li>
-								<li><a href="#">Mugs</a></li>
-							</ul>
-							<p></p>
-						  </div>
-						  <div class="dropdown">
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your Color
-							<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-								<li><a href="#">White</a></li>
-								<li><a href="#">Blue</a></li>
-								<Li><a href="#">Red</a></Li>
-								<li><a href="#">Black</a></li>
-								<li><a href="#">Green</a></li>
-								<li><a href="#">Pink</a></li>
-							</ul>
-						  </div>
-						  <p></p>
-						  <div class="dropdown">
-							<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Choose your Size
-							<span class="caret"></span></button>
-							<ul class="dropdown-menu">
-								<li><a href="#">XX-SM</a></li>
-								<li><a href="#">X-SM</a></li>
-								<Li><a href="#">S</a></Li>
-								<li><a href="#">M</a></li>
-								<li><a href="#">L</a></li>
-								<li><a href="#">XL</a></li>
-								<li><a href="#">XXL</a></li>
-							</ul>
-						  </div>
-						</div>
-						<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-					 		 <div class="d-flex mb-4" style="max-width: 300px">
-								<div class="form-outline">
-						  			<input id="form1" min="0" name="quantity" value="1" type="number" class="form-control" />
-						  			<label class="form-label" for="form1">Quantity</label>
-								</div>
-					  		</div>
-					  			<p class="text-start text-sm-center"><span style='font-size:30px;'>&#8369;</span>
-								<strong style="font-size: x-large;">300.00</strong>
-					  			</p>
-							</div>
-				  		</div>
-					<div class="col-lg-3 col-md-12 mb-4 mb-lg-0">
-					  <div class="bg-image hover-overlay hover-zoom ripple rounded" data-mdb-ripple-color="light">
-						<a href="#!">
-						  <div class="mask" style="background-color: rgba(251, 251, 251, 0.2)"></div>
-						</a>
-					  </div>
-					</div>
-
-			  <div class="col-md-4">
-				<div class="card mb-4">
-				  <div class="card-header py-3">
-					<h5 class="mb-0">Summary</h5>
-				  </div>
-				  <div class="card-body">
-					<ul class="list-group list-group-flush">
-					  <li
-						class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 pb-0">
-						Amount:
-						<span style='font-size:20px;'>&#8369;</span>300.00<span></span>
-					  </li>
-					  <li class="list-group-item d-flex justify-content-between align-items-center px-0">
-						Shipping Fee
-						<span style='font-size:20px;'>&#8369;</span>100.00<span></span>
-					  </li>
-					  <li
-						class="list-group-item d-flex justify-content-between align-items-center border-0 px-0 mb-3">
-						<div>
-						  <strong>Total amount</strong>
-						  <strong>
-							<p class="mb-0">(including VAT)</p>
-						  </strong>
-						</div>
-						<span style='font-size:20px;'>&#8369;</span>400.00<span></span>
-					  </li>
-					</ul>
-					<button type="button" class="btn btn-primary btn-lg btn-block">
-					  Go to checkout
-					</button>
-				  </div>
-				</div>
-			  </div>
-			</div>
-		  </div>
-			</div>
-	  </section>
-	  <p></p>
-	  <p></p>
-	<div class="fluid-container">
-		<div class="section-services" id="services" style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-size: cover;">
-			<div class="row">
+	<div class="fluid-container" style="text-align: center; margin-top: 50px;">
+		<div class="section-services" id="services" style="margin: 50px;">
+			<h1 style="text-align: center;">Create your own Custom Sports Wear</h1>
+			<div class="row" style="margin-top: 50px;">
 				<div class="col-md-4 col-sm-12 col-xs-12 col-lg-4 text-center">
 					<article class="service animated fadeInUp">
 						<div class="service-header">
@@ -255,149 +273,43 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	<div class="fluid-container" id="gallery">
-		<div class="row">
-			<div class="col-md-12 text-right">
-				<div class="section-header gallery-header">
-					<h3 class="header-bg-light-blue">GALLERY</h3>
+	</div>				
+	<footer class="bg-dark text-center text-white">
+		<div class="container p-4 pb-0">
+		  <section class="">
+			<form action="">
+			  <div class="row d-flex justify-content-center">
+				<div class="col-auto">
+				  <p class="pt-2">
+					<strong>Sign up for our newsletter</strong>
+				  </p>
 				</div>
-			</div>
+				<div class="col-md-5 col-12">
+				  <div class="form-outline form-white mb-4">
+					<input type="email" id="form5Example29" class="form-control" />
+					<label class="form-label" for="form5Example29">Email address</label>
+				  </div>
+				</div>
+				<div class="col-auto">
+				  <button type="submit" class="btn btn-outline-light mb-4">
+					Subscribe
+				  </button>
+				</div>
+			  </div>
+			</form>
+		  </section>
 		</div>
-		<div class="section-gallery" style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-size: cover;">
-			<div class="row gallery-holder">
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo1.jpeg" alt="1" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay first mask text-light d-flex justify-content-center flex-column text-center">
-						<a href="#"><h2 class="entry-title m-0" style="color: red;"><b>Your design</b></h2></a>
-					</div>
-				</article>
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo2.jpeg" alt="2" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay second">
-						<a href="#"><h2 class="entry-title" style="color: red;"><b>Family Design</b></h2></a>
-					</div>
-				</article>
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo3.jpeg" alt="3" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay third">
-						<a href="#"><h2 class="entry-title" style="color: red;"><b>Groupie</b></h2></a>
-					</div>
-				</article>
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo4.jpeg" alt="4" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay fourth">
-						<a href="#"><h2 class="entry-title" style="color: red;"><b>Location/Activity</b></h2></a>
-					</div>
-				</article>
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo5.webp" alt="5" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay fifth">
-						<a href="#"><h2 class="entry-title" style="color: red;"><b>Your Choice</b></h2></a>
-					</div>
-				</article>
-				<article class="gallery col-md-4 col-sm-6 col-xs-12">
-					<div class="entry-thumbnail">
-						<img src="./img/photo6.jpeg" alt="6" width="600px" height="350px">
-					</div>
-					<div class="gallery-overlay sixth mask text-primary d-flex justify-content-center flex-column text-center">
-						<a href="#"><h2 class="entry-title m-0" style="color: red;"><b>Team Building</b></h2></a>
-					</div>
-				</article>
-			</div>
+		<div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+		  © 2023 Copyright:
+		  <a class="text-white" href="https://mdbootstrap.com/">MavickD.com</a>
 		</div>
-	</div>
-	<div class="fluid-container" id="contact">
-		<div class="row">
-			<div class="col-md-12 text-left">
-				<div class="section-header contact-header">
-					<h3>Stay in Touch</h3>					
-				</div>
-			</div>
-		</div>
-		<div class="section-contact"  style="background-image: url(./img/bg.pink1.png); background-repeat: no-repeat; background-position: top;">
-			<div class="row">
-				<div class="col-md-5 col-sm-12 col-xs-12">
-					<form action="#" method="post" id="contact-form">
-						<fieldset>
-							<label for="name">Name:</label>
-							<input type="text" name="name" id="name">
-						</fieldset>
-						<fieldset>
-							<label for="name">Delivery Address:</label>
-							<input type="text" name="address" id="address">
-						</fieldset>
-						<fieldset>
-							<label for="email">Email Address:</label>
-							<input type="email" name="email" id="email">
-						</fieldset>
-						<fieldset>
-							<label for="phone">Phone Number:</label>
-							<input type="tel" name="phone" id="phone">
-						</fieldset>
-						<fieldset>
-							<label for="message">Instructions</label>
-							<textarea name="message" id="message" rows="3"></textarea>
-						</fieldset>
-						<fieldset>
-							<input type="submit" class="button-dark" value="Submit">
-						</fieldset>
-					</form>
-				</div>
-				<div class="col-md-7 col-sm-12 col-xs-12">
-					<div class="contact-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3827.7206064387624!2d120.57729237515956!3d16.38818893082014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3391a106b9a572e3%3A0x7629dc8d1bbc2024!2sTeacher&#39;s%20Village%20Rd%2C%20Baguio%2C%20Benguet!5e0!3m2!1sen!2sph!4v1695279729226!5m2!1sen!2sph" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-					</div>
-					<div class="contact-infos">
-						<div class="row">
-							<div class="col-md-6">
-								<p><strong>Email:</strong> <a href="#">myprints@gmail.com</a></p>
-								<p><strong>Phone:</strong> 0917-190-8954</p>
-							</div>
-							<div class="col-md-6">
-								<p>“You have one life so live it, look great doing it. Go ahead be different embrace your quirks they are what make you unique and interesting.”</p>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div class="fluid-container">
-		<footer class="site-footer">
-			<a href="#" class="back-to-top">
-				<i class="fa fa-angle-up"></i>
-			</a>
-			<div class="row">
-				<div class="col-md-6 col-sm-6 col-xs-12 padding-left-0">
-					<p class="copyright">Copyright &copy; 2023 MavickD.</p>
-				</div>
-				<div class="col-md-6 col-sm-6 col-xs-12 padding-right-0">
-					<ul class="social">
-						<li><a href="#"><i class="fa fa-facebook"></i> Facebook</a></li>
-						<li><a href="#"><i class="fa fa-twitter"></i> Twitter</a></li>
-						<li><a href="#"><i class="fa fa-youtube"></i> Youtube</a></li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-	</div>
-	</div>
-	<script src="js/bootstrap.js"></script>
+	  </footer>
+	  
+		  </body>
+	  </html>
 	<script src="js/plugins.js"></script>
 	<script src="js/custom.js"></script>
 	<script src="//code.tidio.co/zzq3y3bopninlyjzkylozv6yf3gauje9.js" async></script>
-    </script>
-<link rel="stylesheet" href="./js/bootstrap.js">
+
 </body>
 </html>
